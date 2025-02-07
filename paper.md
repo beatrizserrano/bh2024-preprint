@@ -84,22 +84,23 @@ http://preview.biohackrxiv.org/
 
 # Introduction
 
-The 2024 edition of [BioHackathon Europe](https://biohackathon-europe.org/) took place in Barcelona in November, bringing together a group of image data analysis enthusiasts to collaborate on [Project 17: **_"Development of FAIR image analysis workflows and training in Galaxy"_**](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/17.md).  
+The 2024 edition of [BioHackathon Europe](https://biohackathon-europe.org/) took place in Barcelona, bringing together a group of image data analysis enthusiasts to collaborate on [Project 17: **_"Development of FAIR image analysis workflows and training in Galaxy"_**](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/17.md).  
 
-Although image analysis tools are available within the [Galaxy platform](https://imaging.usegalaxy.eu/), they remain underutilised. During the 2023 BioHackathon Europe, our efforts focused on enhancing the image analysis community in Galaxy by cataloguing and annotating tools and facilitating community discussions to establish naming conventions that promote standardisation. These initial efforts, detailed in the project outcomes (Leonid Kostrykin, \emph{et al.}), laid the foundation for the ongoing expansion of Galaxy's image analysis capabilities.  
+Although image analysis tools are available within the [Galaxy platform](https://imaging.usegalaxy.eu/) [@citesAsAuthority:extends:Galaxy], they remain underutilised. During the 2023 BioHackathon Europe, our efforts focused on enhancing the image analysis community in Galaxy by cataloguing and annotating tools and facilitating community discussions to establish naming conventions that promote standardisation. These initial efforts, detailed in the project outcomes [@citesAsAuthority:extends:Kostrykin2024], laid the foundation for the ongoing expansion of Galaxy's image analysis capabilities.  
 
-Building on these achievements, this year’s work aimed to exploit and demonstrate the Galaxy platform's full potential to address the needs of the image analysis community in Galaxy. This project involved developing FAIR (Findable, Accessible, Interoperable, and Reusable) image analysis workflows, creating tutorials for the Galaxy Training Network to provide documentation, and fostering broader adoption and facilitating the application of these workflows across scientific domains. 
+Building on these achievements, this year’s work aimed to **exploit and demonstrate the Galaxy platform's full potential to address the needs of the image analysis community**. This project involved developing FAIR (Findable, Accessible, Interoperable, and Reusable) image analysis workflows, creating tutorials for the Galaxy Training Network to provide documentation, and fostering broader adoption and facilitating the application of these workflows across scientific domains. 
 
 ## Project goals
 
 This project aimed to enhance the accessibility, standardisation, and automation of image analysis workflows by leveraging Galaxy, a platform well-suited for diverse data analysis tasks. The primary goals included:
-- Identifying popular use cases for image analysis to ensure the workflows address relevant and impactful needs.
-- Selecting relevant datasets from public repositories to represent diverse image analysis tasks and challenges.
-- Developing Galaxy workflows to perform various image analysis tasks, including segmentation, classification, and denoising.
-- Depositing workflows into the WorkflowHub to ensure their accessibility, findability, and reusability.
-- Creating FAIR tutorials to guide users in employing these workflows effectively, promoting best practices and transparency.
 
-These goals addressed significant challenges in the image analysis community, where standardisation and automation are often lacking, and manual interactions are immanent to many pipelines. By integrating Galaxy tools and providing state-of-the-art resources, this initiative aimed to streamline workflows and raise awareness of Galaxy’s potential, ultimately expanding its user base. 
+- Identifying popular **use cases** for image analysis to ensure the workflows address relevant and impactful needs.
+- Selecting **relevant datasets** from public repositories to represent diverse image analysis tasks and challenges.
+- Developing **Galaxy workflows** to perform various image analysis tasks, including segmentation, classification, and denoising.
+- Depositing **workflows into [WorkflowHub](https://workflowhub.eu/) [@usesDataFrom:citesAsAuthority:workflowhub])** to ensure their accessibility, findability, and reusability.
+- Creating **FAIR tutorials** to guide users in employing these workflows effectively, promoting best practices and transparency.
+
+These goals addressed significant challenges in the image analysis community, where standardisation and automation are often lacking, and manual interactions are immanent to many pipelines. By integrating Galaxy tools and providing state-of-the-art resources, this initiative aimed to **streamline workflows** and raise awareness of Galaxy’s potential, ultimately **expanding its user base**. 
 
 This effort was further strengthened by the involvement of [ELIXIR](https://elixir-europe.org/), [Euro-BioImaging](https://www.eurobioimaging.eu/), and the [Pangeo Community](https://www.pangeo.io/) ensuring expert guidance and relevance from diverse scientific communities. 
 
