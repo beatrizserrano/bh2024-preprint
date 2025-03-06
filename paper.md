@@ -164,7 +164,7 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 |  Aerial Image   |  Biomage    |
 | -------- | ------- |
-|  ![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png) |  ![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png)   |  
+|  ![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png) |  ![Distribution of tools across repositories](https://hackmd.io/_uploads/SJgPHSDiyx.png)   |  
 
 
 
