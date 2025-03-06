@@ -85,7 +85,7 @@ The 2024 edition of [BioHackathon Europe](https://biohackathon-europe.org/) took
 
 Although image analysis tools are available within the [Galaxy platform](https://imaging.usegalaxy.eu/) [@citesAsAuthority:extends:Galaxy], they remain underutilised. During the 2023 BioHackathon Europe, our efforts focused on enhancing the image analysis community in Galaxy by cataloguing and annotating tools and facilitating community discussions to establish naming conventions that promote standardisation. These initial efforts, detailed in the project outcomes [@citesAsAuthority:extends:Kostrykin2024], laid the foundation for the ongoing expansion of Galaxy's image analysis capabilities.  
 
-Building on these achievements, this year’s work aimed to **exploit and demonstrate the Galaxy platform's full potential to address the needs of the image analysis community**. This project involved developing FAIR (Findable, Accessible, Interoperable, and Reusable) image analysis workflows, creating tutorials for the Galaxy Training Network to provide documentation, and fostering broader adoption and facilitating the application of these workflows across scientific domains. 
+Building on these achievements, this year’s work aimed to **exploit and demonstrate the Galaxy platform's full potential to address the needs of the image analysis community**. This project involved developing FAIR (Findable, Accessible, Interoperable, and Reusable) image analysis workflows, creating tutorials for the Galaxy Training Network (GTN) to provide documentation [@extends:gtn], and fostering broader adoption and facilitating the application of these workflows across scientific domains. 
 
 ## Project goals
 
@@ -94,7 +94,7 @@ This project aimed to enhance the accessibility, standardisation, and automation
 - Identifying popular **use cases** for image analysis to ensure the workflows address relevant and impactful needs.
 - Selecting **relevant datasets** from public repositories to represent diverse image analysis tasks and challenges.
 - Developing **Galaxy workflows** to perform various image analysis tasks, including segmentation, classification, and denoising.
-- Depositing **workflows into [WorkflowHub](https://workflowhub.eu/) [@usesDataFrom:citesAsAuthority:workflowhub])** to ensure their accessibility, findability, and reusability.
+- Depositing **workflows into [WorkflowHub](https://workflowhub.eu/)** [@usesDataFrom:extends:workflowhub] to ensure their accessibility, findability, and reusability.
 - Creating **FAIR tutorials** to guide users in employing these workflows effectively, promoting best practices and transparency.
 
 These goals addressed significant challenges in the image analysis community, where standardisation and automation are often lacking, and manual interactions are immanent to many pipelines. By integrating Galaxy tools and providing state-of-the-art resources, this initiative aimed to **streamline workflows** and raise awareness of Galaxy’s potential, ultimately **expanding its user base**. 
@@ -109,7 +109,7 @@ This year, to enhance engagement with the online participants during the hackath
 In this section, we discuss the achievements within the BioHackathon Europe 2024, aligning them with the project goals. 
 
 ## Tools
-The Galaxy CoDex project ([Project 11: Galaxy CoDex – Ensuring Galaxy community sustainability through resource aggregation & annotation](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/11.md)) was instrumental in advancing the tool-related goals of this initiative by providing an up-to-date, annotated list of image analysis and processing tools. Accessible via the [Galaxy CoDex repository](https://github.com/galaxyproject/galaxy_codex), the [list tailored for the image analysis community](https://github.com/galaxyproject/galaxy_codex/blob/1da03e6728436c2644706191d035b103d885a36c/communities/imaging/resources/tools.tsv) reflects the latest updates as of September 2024. It served as a reliable resource for identifying and evaluating tools.
+The Galaxy CoDex project ([Project 11: Galaxy CoDex – Ensuring Galaxy community sustainability through resource aggregation & annotation](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/11.md), follow-up of [@usesMethodIn:citesAsAuthority:project25in2023]) was instrumental in advancing the tool-related goals of this initiative by providing an up-to-date, annotated list of image analysis and processing tools. Accessible via the [Galaxy CoDex repository](https://github.com/galaxyproject/galaxy_codex), the [list tailored for the image analysis community](https://github.com/galaxyproject/galaxy_codex/blob/1da03e6728436c2644706191d035b103d885a36c/communities/imaging/resources/tools.tsv) reflects the latest updates as of September 2024. It served as a reliable resource for identifying and evaluating tools.
 
 ## Workflows
 The project successfully updated and created several workflows. These include specialised workflows for detecting mitoflashes, registration, and segmentation tasks, with applications spanning bioimage and Earth Observation data analysis.
@@ -119,21 +119,21 @@ Efforts to improve existing workflows also advanced. The [IWC (Intergalactic Wor
 ## Tutorials
 
 ### Updated tutorial: “HeLa screen analysis”
-The [HeLa screen analysis tutorial](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html) was updated to reflect recent tool changes, including the merging of the "Split binary image using watershed transformation" tool with the Convert binary image to label map tool. 
+The [HeLa screen analysis tutorial](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/hela-screen-analysis/tutorial.html) was updated to reflect recent tool changes, including the merging of the "Split binary image using watershed transformation" tool with the "Convert binary image to label map" tool. 
 With Galaxy now supporting direct visualisation of TIFF files, both this tutorial and the [Introduction to Image Analysis Using Galaxy](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/imaging-introduction/tutorial.html) were substantially simplified by removing the now unnecessary conversion steps (TIFF to PNG). Additionally, tools and workflows used in these tutorials were [updated to their latest versions to ensure accuracy and consistency](galaxyproject/training-material#5505).
 
 ### New tutorial: Detection of mitoflashes
 A [new Galaxy tutorial](https://training.galaxyproject.org/training-material/topics/imaging/tutorials/detection-of-mitoflashes/tutorial.html) was developed to detect and analyse mitoflashes, short bursts of fluorescence intensity from mitochondria caused by transient events like membrane depolarisation or reactive oxygen species production. These events, characterised by temporal intensity peaks, are markers for understanding mitochondrial function and dynamics. 
 
-This tutorial is based on a workflow originally described in Wang et al. 2022, now implemented within the Galaxy platform using its integrated tools for reproducible analysis. 
+This tutorial is based on a workflow originally described in [@citesAsAuthority:usesMethodIn:Wang2022], now implemented within the Galaxy platform using its integrated tools for reproducible analysis. 
 
 
 ### New tutorial: Overview of the Galaxy OMERO-suite
-A [new tutorial covering the different tools of the Galaxy OMERO-suite](https://training.galaxyproject.org/training-material//topics/imaging/tutorials/omero-suite/tutorial.html ) was developed. The Galaxy OMERO-suite is based on the Python packages omero-py and ezomero, and it allows interactively building pipelines to upload and fetch image data in OMERO using a Galaxy workflow. Images can automatically be enriched with metadata (i.e. key-value pairs, tags, raw data, regions of interest) and uploaded to an OMERO server. The tools give the user the ability to intuitively fetch images from the local server and perform image analysis.
+A [new tutorial covering the different tools of the Galaxy OMERO-suite](https://training.galaxyproject.org/training-material//topics/imaging/tutorials/omero-suite/tutorial.html ) was developed. The Galaxy OMERO-suite is based on the Python packages omero-py and ezomero, and it allows interactively building pipelines to upload and fetch image data in OMERO using a Galaxy workflow. Images can automatically be enriched with metadata (_i.e._ key-value pairs, tags, raw data, regions of interest) and uploaded to an OMERO server. The tools give the user the ability to intuitively fetch images from the local server and perform image analysis.
 
 ## Community
 
-A dedicated [community page on the Galaxy Community Hub](https://galaxyproject.org/community/sig/image-analysis/) was created to provide a centralised space for the imaging community in Galaxy. In addition to the community page, efforts have been made to connect with key platforms like the BioImage Archive (BIA) and BioImage Model Zoo (BMZ), further enhancing collaboration, accessibility, and standardisation across the image analysis community. These actions reflect a broader strategy to build a growing and engaged user base, fostering more significant interaction and knowledge-sharing.
+A dedicated [community page on the Galaxy Community Hub](https://galaxyproject.org/community/sig/image-analysis/) was created to provide a centralised space for the imaging community in Galaxy. In addition to the community page, efforts have been made to connect with key platforms like the BioImage Archive (BIA) [@citesAsAuthority:bia] and the BioImage Model Zoo (BMZ) [@citesAsAuthority:BMZ], further enhancing collaboration, accessibility, and standardisation across the image analysis community. These actions reflect a broader strategy to build a growing and engaged user base, fostering more significant interaction and knowledge-sharing.
 
 
 # Ongoing work
@@ -164,8 +164,8 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 The tutorial is still under development in this [pull request](https://github.com/galaxyproject/training-material/pull/5508).
 
-### Registration of MALDI and histology images
-There was an existing workflow for the registration of mass spectrometry imaging (MALDI) and histology images: [MALDI-Histology Registration Workflow](https://usegalaxy.eu/published/workflow?id=64bb7a64877034dc). This interdisciplinary workflow enables the combined quantification of MALDI and histological microscopy images (Föll et al., GigaScience 2019). However, a newer version of the workflow might be available soon. During the hackathon, we identified that finding relevant (and open) images to use as inputs was the most critical part. The discussions around building this new tutorial can be followed in [this issue](https://github.com/beatrizserrano/galaxy-image-community/issues/8).
+### Registration of MSI and histology images
+There was an existing workflow for the registration of mass spectrometry imaging (MSI) and histology images: [MSI-Histology Registration Workflow](https://usegalaxy.eu/published/workflow?id=64bb7a64877034dc). This interdisciplinary workflow enables the combined quantification of MSI and histological microscopy images [@citesAsAuthority:usesMethodIn:msi-in-galaxy]. However, a newer version of the workflow might be available soon. During the hackathon, we identified that finding relevant (and open) images to use as inputs was the most critical part. The discussions around building this new tutorial can be followed in [this issue](https://github.com/beatrizserrano/galaxy-image-community/issues/8).
 
 
 ## Community
@@ -179,7 +179,7 @@ Discussions with the BioImage Archive team have suggested the possibility of add
 # Future plans
 
 ## Tools
-There is a tool for submitting images to the BioImage Archive: [ascp2BIA](https://github.com/Euro-BioImaging/Galaxy-OME-Zarr/blob/multiple-tools/DataIO/ascp2BIA.xml). This tool should be used to deposit images to the BIA, preferably in the OME-Zarr format. To convert regular images to OME-Zarr, the [bf2raw](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/imgteam/bioformats2raw/bf2raw/0.7.0+galaxy3) tool can be used. For instance, segmentation results obtained using Cellpose (see [issue #15](https://github.com/beatrizserrano/galaxy-image-community/issues/15)) could be deposited. Like the OMERO tool, this tool should also be covered in a tutorial, either dedicated or as part of a larger tutorial. It should also emphasise the good practice of depositing images in OME-Zarr format to the BIA. Depositing images as OME-Zarr offers advantages such as embedded metadata, support for chunking, and the ability to store data in an S3-compatible bucket, which significantly improves access performance and reduces the need for local downloads. When publishing to the BIA, metadata such as license, authors, and descriptions should be provided to ensure the reproducibility of the research.
+There is a tool for submitting images to the BioImage Archive: [ascp2BIA](https://github.com/Euro-BioImaging/Galaxy-OME-Zarr/blob/multiple-tools/DataIO/ascp2BIA.xml). This tool should be used to deposit images to the BIA, preferably in the OME-Zarr format [@citesAsAuthority:usesMethodIn:OMEzarr]. To convert regular images to OME-Zarr, the [bf2raw](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/imgteam/bioformats2raw/bf2raw/0.7.0+galaxy3) tool can be used. For instance, segmentation results obtained using Cellpose (see [issue #15](https://github.com/beatrizserrano/galaxy-image-community/issues/15)) could be deposited. Like the OMERO tool, this tool should also be covered in a tutorial, either dedicated or as part of a larger tutorial. It should also emphasise the good practice of depositing images in OME-Zarr format to the BIA. Depositing images as OME-Zarr offers advantages such as embedded metadata, support for chunking, and the ability to store data in an S3-compatible bucket, which significantly improves access performance and reduces the need for local downloads. When publishing to the BIA, metadata such as license, authors, and descriptions should be provided to ensure the reproducibility of the research.
 In the long run, we plan to adapt the image analysis tools in Galaxy to consume OME-Zarr.
 
 We currently offer an interactive QuPath tool within Galaxy. We plan to further integrate QuPath by wrapping it as a non-interactive Galaxy tool, enabling easier automation and workflow integration for more efficient and reproducible image analysis. 
@@ -205,14 +205,14 @@ In order to properly detect bright spots in 2D images, background subtraction is
 
 To prepare for upcoming events, we aim to develop reusable slides and demos that can be leveraged for future outreach and training activities.
 
-Building on last year’s efforts to annotate tools, we recognise the need for more detailed and specific annotations in EDAM Bioimaging, such as terms like "image processing," to improve the findability and reusability of our resources. These enhancements will ensure greater accessibility and utility for the community.
+Building on last year’s efforts to annotate tools, we recognise the need for more detailed and specific annotations from EDAM Bioimaging [@citesAsAuthority:edamBioimaging], such as concepts like "Image processing", to improve the findability and reusability of our resources. These enhancements will ensure greater accessibility and utility for the community.
 
 # Acknowledgements
 
 This work was developed as part of BioHackathon Europe 2024.
 We thank the contributions from [Project 11: Galaxy CoDex – Ensuring Galaxy community sustainability through resource aggregation & annotation](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/11.md).
 
-We sincerely thank Teresa Zulueta-Coarasa from the BioImage Archive team; Fynn Beuttenmueller, from the BioImage Model Zoo community; and Melanie Foell from the MALDI imaging community, for their invaluable contributions and support.
+We sincerely thank Teresa Zulueta-Coarasa from the BioImage Archive team; Fynn Beuttenmueller, from the BioImage Model Zoo community; and Melanie Föll from the mass spectrometry imaging community, for their invaluable contributions and support.
 
 The authors utilised the language model ChatGPT developed by OpenAI to assist in structuring and drafting this text.
 
