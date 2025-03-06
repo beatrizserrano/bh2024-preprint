@@ -1,3 +1,4 @@
+---
 title: 'Development of FAIR image analysis workflows and training in Galaxy'
 title_short: 'Image analysis workflows and training in Galaxy'
 tags:
@@ -65,7 +66,7 @@ git_url: https://github.com/beatrizserrano/bh2024-preprint
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: Leonid Kostrykin, \emph{et al.}
-—
+---
 
 
 <!--
