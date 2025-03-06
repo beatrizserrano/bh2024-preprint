@@ -164,7 +164,7 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 The tutorial is still under development in this [pull request](https://github.com/galaxyproject/training-material/pull/5508).
 
-### Registration of MALDI and histology images
+### Registration of MSI and histology images
 There was an existing workflow for the registration of mass spectrometry imaging (MSI) and histology images: [MSI-Histology Registration Workflow](https://usegalaxy.eu/published/workflow?id=64bb7a64877034dc). This interdisciplinary workflow enables the combined quantification of MSI and histological microscopy images [@citesAsAuthority:usesMethodIn:msi-in-galaxy]. However, a newer version of the workflow might be available soon. During the hackathon, we identified that finding relevant (and open) images to use as inputs was the most critical part. The discussions around building this new tutorial can be followed in [this issue](https://github.com/beatrizserrano/galaxy-image-community/issues/8).
 
 
