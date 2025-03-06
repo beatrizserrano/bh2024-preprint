@@ -34,7 +34,6 @@ authors:
   - name: Beatriz Serrano-Solano
     affiliation: 8
     orcid: 0000-0002-5862-6132
-
 affiliations:
   - name: Biomedical Computer Vision Group, Heidelberg University, BioQuant, Heidelberg, ELIXIR Germany
     index: 1
@@ -46,14 +45,12 @@ affiliations:
     index: 4  
   - name: Helmholtz-Zentrum für Umweltforschung UFZ,  Leipzig, Germany
     index: 5
-- name: ELIXIR Norway, and Department of Informatics, University of Bergen, Norway
+  - name: ELIXIR Norway, and Department of Informatics, University of Bergen, Norway
     index: 6
   - name: Simula Research Laboratory, Oslo, Norway
     index: 7
   - name: Euro-BioImaging ERIC Bio-Hub, European Molecular Biology Laboratory (EMBL), Heidelberg, Germany
     index: 8
-
-
 date: 23 January 2025
 cito-bibliography: paper.bib
 event: BH24EU
@@ -67,7 +64,6 @@ git_url: https://github.com/beatrizserrano/bh2024-preprint
 # bottom of the generated paper (typically the first two authors):
 authors_short: Leonid Kostrykin, \emph{et al.}
 ---
-
 
 <!--
 
