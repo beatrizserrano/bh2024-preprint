@@ -215,7 +215,7 @@ Building on last year’s efforts to annotate tools, we recognise the need for m
 # Acknowledgements
 
 This work was developed as part of BioHackathon Europe 2024.
-We thank the contributions from Project 17 [@usesMethodIn:obtainsSupportFrom:project17].
+We thank the contributions from [Project 11: Galaxy CoDex – Ensuring Galaxy community sustainability through resource aggregation & annotation](https://github.com/elixir-europe/biohackathon-projects-2024/blob/main/11.md).
 
 We sincerely thank Teresa Zulueta-Coarasa from the BioImage Archive team; Fynn Beuttenmueller, from the BioImage Model Zoo community; and Melanie Foell from the MALDI imaging community, for their invaluable contributions and support.
 
