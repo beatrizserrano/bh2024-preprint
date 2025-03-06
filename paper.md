@@ -164,13 +164,7 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 
 
-
-![Trees from aerial pictures](https://raw.githubusercontent.com/beatrizserrano/bh2024-preprint/refs/heads/main/rawEO_scikit_1CH.png)
-
-![Cells](https://raw.githubusercontent.com/beatrizserrano/bh2024-preprint/refs/heads/main/BIAD634_IM276.png) 
-
-
-
+![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png)
 
 
 
