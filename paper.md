@@ -165,6 +165,14 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 
 
+|  Aerial Image   |  Biomage    |
+| -------- | ------- |
+|  ![Trees from aerial pictures](rawEO_scikit_1CH.png) |  ![Cells](BIAD634_IM276.png)   |  
+
+
+
+
+
 
 The tutorial is still under development in this [pull request](https://github.com/galaxyproject/training-material/pull/5508).
 
