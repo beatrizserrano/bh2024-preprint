@@ -23,7 +23,7 @@ authors:
     orcid: 0000-0002-8350-6503
   - name: Riccardo Massei
     affiliation: 5
-    orcid 0000-0003-2104-9519
+    orcid: 0000-0003-2104-9519
   - name: Matúš Kalaš
     affiliation: 6
     orcid: 0000-0002-1509-4981
