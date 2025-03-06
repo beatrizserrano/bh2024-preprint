@@ -162,9 +162,13 @@ The "Voronoi Segmentation Used Across Disciplines" tutorial is based on [this wo
 
 The tutorial is designed to be versatile, addressing the needs of different imaging modalities. Users will be able to choose their "path" through the tutorial based on their imaging modality. To this end, the tutorial will cover the use of images from the BioImage Archive, and aerial images or high-resolution satellite images (for instance [this dataset](https://zenodo.org/records/5494629#.YWQQetnMKjA)).
 
+|  Aerial Image   |  Biomage    |
+| -------- | ------- |
+|  ![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png) |  ![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png)   |  
 
 
-![Distribution of tools across repositories](https://hackmd.io/_uploads/B1RQLDUHT.png)
+
+
 
 
 
