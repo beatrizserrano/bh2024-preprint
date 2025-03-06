@@ -165,9 +165,9 @@ The tutorial is designed to be versatile, addressing the needs of different imag
 
 
 
-|  Aerial Image   |  Biomage    |
-| -------- | ------- |
-|  ![Trees from aerial pictures](https://github.com/beatrizserrano/bh2024-preprint/blob/main/rawEO_scikit_1CH.png) |  ![Cells](https://github.com/beatrizserrano/bh2024-preprint/blob/main/BIAD634_IM276.png)   |  
+![Trees from aerial pictures](https://github.com/beatrizserrano/bh2024-preprint/blob/main/rawEO_scikit_1CH.png)
+
+![Cells](https://github.com/beatrizserrano/bh2024-preprint/blob/main/BIAD634_IM276.png) 
 
 
 
